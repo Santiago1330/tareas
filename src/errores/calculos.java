@@ -1,5 +1,11 @@
 package errores;
-
+/*
+           METODOS NÚMERICOS
+    WILIAM SANTIAGO SIERRA GUEMEZ
+              4B
+    CALCULO DE ERRORES (ABSOLUTO, RELATIVO Y PORCENTUAL)
+    INGENIERIA EN SISTEMAS COMPUTACIONALES
+    */
 public class calculos {
     private double real,aproximado;
     double absoluto,relativo,porcentual;
@@ -15,12 +21,12 @@ public class calculos {
     }
     
     public double errorRelativo(){
-        relativo=Math.abs((real-aproximado)/real);
+        relativo=errorAbsoluto()/real;
         return relativo;
     }
     
     public double errorPorcentual(){
-        porcentual=Math.abs((real-aproximado)/real)*100;
+        porcentual=errorRelativo()*100;
         return porcentual;
     }
 }

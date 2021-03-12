@@ -1,7 +1,13 @@
 package errores;
 import java.util.Scanner;
 public class Errores {
-
+/*
+           METODOS NÚMERICOS
+    WILIAM SANTIAGO SIERRA GUEMEZ
+              4B
+    CALCULO DE ERRORES (ABSOLUTO, RELATIVO Y PORCENTUAL)
+    INGENIERIA EN SISTEMAS COMPUTACIONALES
+    */
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int o,op;
